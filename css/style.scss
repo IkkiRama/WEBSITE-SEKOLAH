@@ -1,0 +1,1573 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+}
+
+.navbar {
+    align-items: center;
+    background-color: transparent;
+    // background-color: #3F9CE8;
+
+    .hamburger span {
+        color: rgb(200, 28, 28);
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 45px;
+            height: 45px;
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-left: 10px;
+            font-family: 'Viga', sans-serif;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #fff;
+        }
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 1.1rem;
+        margin-left: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+
+    .form-inline {
+
+        .form-control {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .btn {
+            width: 70px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+
+
+.navbarKu {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+
+    .navbar-brand h1,
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+}
+
+
+
+
+.nav-item {
+    position: relative;
+
+    .dropdown-menu {
+        position: absolute;
+        left: 0;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.slideshow {
+    width: 100%;
+    height: 100vh;
+    // background-color: red;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .satu {
+        background-image: url('../images/5e72f65c1f909-teamwork-desktop2.jpg');
+    }
+
+    .dua {
+        background-image: url('../images/5e72f74b99ff0-humility-desktop2.jpg');
+    }
+
+    .tiga {
+        background-image: url('../images/5e72f72cca561-respect-desktop2.jpg');
+    }
+
+    .empat {
+        background-image: url('../images/5e72f7134ca67-integrity-desktop2.jpg');
+    }
+
+    .lima {
+        background-image: url('../images/5e72f6adbf417-commitment2-desktop.jpg');
+    }
+
+    .enam {
+        background-image: url('../images/5e72f68fbd34a-excellent-desktop2.jpg');
+    }
+
+    .container {
+        position: absolute;
+        bottom: 150px;
+        left: 150px;
+
+        .mainText {
+            position: relative;
+
+            .garis {
+                position: absolute;
+                width: 7px;
+                height: 80px;
+                border-radius: 10px;
+                background-color: #FFA51C;
+                // background-color: #3F9CE8;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                font-style: italic;
+                margin-left: 30px;
+                color: #fff;
+            }
+
+            h1 {
+                margin: 20px 0 40px 30px;
+                font-weight: 1000;
+                line-height: 10px;
+                text-transform: uppercase;
+                color: #fff;
+                // color: #FFA51C;
+            }
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+
+    }
+}
+
+
+
+
+.title {
+    margin: 150px auto 30px auto;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+
+
+.perGaleri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+        width: 250px;
+        height: 150px;
+        margin: 5px;
+    }
+}
+
+
+.scroll {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: background-color .5s;
+
+    .navbar-brand h1,
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+}
+
+
+
+// sambutan
+
+
+
+
+.sambutan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+
+    h1 {
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    p {
+        font-style: italic;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+// kepsek
+.kepsek {
+    background-image: url('../images/bg-visimisi.png');
+    margin: 30px 0;
+
+    .container {
+        display: flex;
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .visiMisi {
+            display: flex;
+            justify-content: space-between;
+
+            .visi {
+                margin: 0 50px 0 100px;
+
+                h5 {
+                    font-size: 1.2rem;
+                    font-style: italic;
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                }
+            }
+
+
+            .misi {
+                h5 {
+                    font-size: 1.2rem;
+                    font-style: italic;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-family: 'PT Serif', sans-serif;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// //artikel
+.titleArtikel {
+    padding: 130px 0 20px 0;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+        font-weight: 600;
+    }
+}
+
+.artikel {
+
+    .perArtikel {
+        display: flex;
+        margin-bottom: 10px;
+
+
+        &:hover {
+
+            h3 {
+                color: rgb(14, 133, 231);
+                transition: .5s;
+            }
+        }
+
+        img {
+            width: 250px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        h3 {
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: #000;
+            line-height: 30px;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}
+
+
+
+// .artikelPagination {
+//     padding: 50px 0;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     span {
+//         padding: 5px 20px;
+//         border: 1px solid #000;
+//         margin: 0 10px;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// sosmed icon
+.iconBox {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 9999999999999999999999999999999999999999999;
+
+    .perIconBox {
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+}
+
+
+.perIconBox:hover {
+    color: rgb(218, 218, 218);
+}
+
+.wa {
+    background-color: #1bc22e;
+}
+
+.fb {
+    background-color: #4867AA;
+}
+
+.ig {
+    background: linear-gradient(to bottom left, #5056C5, #EE4B51, #F7B04D);
+}
+
+.yt {
+    background-color: #FF0000;
+}
+
+.linkin {
+    background-color: #0077B5;
+}
+
+
+
+
+
+
+// jurusan
+
+.jurusan {
+    background-color: #f3f1f1;
+    padding: 50px 0;
+    margin-top: 80px;
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .boxJurusan {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .perBox {
+            position: relative;
+            margin: 10px;
+            width: 350px;
+            height: 200px;
+            overflow: hidden;
+
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: transform .5s;
+            }
+
+            h3 {
+                position: absolute;
+                bottom: -10px;
+                display: flex;
+                align-items: center;
+                left: 0;
+                padding-left: 5px;
+                color: #fff;
+                width: 100%;
+                height: 35px;
+                background-color: rgb(0, 102, 255);
+                font-size: 1rem;
+                z-index: 2;
+            }
+        }
+    }
+}
+
+
+
+.jurusan .boxJurusan .perBox:hover img {
+    opacity: .6;
+    transform: scale(1.2);
+}
+
+
+
+
+// Artikel Home
+.containerArtikelHome {
+    padding-top: 50px;
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .artikelHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        .perArtikelHome {
+            width: 350px;
+            margin: 10px;
+            text-decoration: none;
+            cursor: pointer;
+
+
+            &:hover {
+
+                h3 {
+                    color: rgb(14, 108, 231);
+                    transition: .3s;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 225px;
+                border-radius: 5%;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+                text-align: center;
+                font-weight: 900;
+                color: #000;
+            }
+
+            small {
+                color: #000;
+
+                span {
+                    color: rgb(14, 133, 231);
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                font-size: .9rem;
+                color: #000;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// footer
+.footer {
+    background-color: #263238;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-top: 125px;
+}
+
+.footerContactUs {
+    display: flex;
+    flex-direction: column;
+
+    .perFooterContactUs {
+        display: flex;
+        margin: 10px 0;
+
+        p {
+            margin: 0 0 0 20px;
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.footerAbout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    a {
+        margin: 5px 0;
+    }
+}
+
+
+.btn-newsletter {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.footerCopyright {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #263238
+// rgb(17, 17, 17)
+
+
+
+
+
+
+
+// ekstrakulikuler
+.ekstrakulikuler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    .perEkstrakulikuler {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        margin: 20px 10px;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.2);
+
+        p {
+            width: 100%;
+            height: 30px;
+            position: absolute;
+            bottom: -17px;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0069D9;
+            color: #fff;
+            border-radius: 20px;
+            transform: translateY(50px);
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url('../images/4.jpeg');
+            background-size: cover;
+            background-position: top center;
+            width: 100%;
+            height: 100%;
+        }
+
+        &:hover {
+
+            &::before {
+                opacity: .7;
+            }
+
+            p {
+                transition: .5s;
+                transform: translateY(0px);
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// per ekstra
+.containerEkstra {
+    margin-top: 80px;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../images/basket.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleEkstrakulikuler {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+
+.pembinaEkstrakulikuler {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .perPembina {
+        width: 250px;
+        height: 200px;
+        margin: 20px 10px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        h5 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0077B5;
+            margin: 0;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+}
+
+
+.fasilitas {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// perArtikel.html
+.detailArtikel {
+    margin: 140px 0 70px 0;
+
+    h2 {
+        font-weight: 700;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+}
+
+.imgArtikel {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.shareArtikel,
+.penulis {
+
+    p {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    img {
+        width: 60%;
+        height: 200px;
+        border-radius: 10px;
+        // transform: translateX(30%);
+    }
+
+    h4 {
+        font-weight: 600;
+    }
+}
+
+.containerIconShare {
+    display: flex;
+    flex-wrap: wrap;
+
+    .iconShare {
+        width: 50px;
+        height: 40px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+    }
+}
+
+.fixed {
+    position: fixed;
+    right: 100px;
+    top: 150px;
+
+}
+
+.mainDetailArtikel {
+
+    .row {
+
+        .col-md-8 {
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// kontak
+
+.kontak {
+    margin: 150px 0 150px 0;
+
+
+    form {
+        display: flex;
+        justify-content: space-between;
+
+        .formKontakKiri {
+            width: 45%;
+        }
+
+        .formKontakKanan {
+            width: 50%;
+        }
+    }
+}
+
+
+iframe {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    transform: translateY(6px);
+}
+
+
+.footerHubungiKami {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1175px) {
+
+    .jurusan {
+
+        .boxJurusan {
+            .perBox {
+                width: 375px;
+                height: 225px;
+            }
+        }
+    }
+}
+
+@media(max-width:1000px) {
+
+    .shareArtikel,
+    .penulis {
+        img {
+            width: 80%;
+        }
+    }
+
+    .detailArtikel {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .kepsek {
+
+        .container {
+
+            img {
+                margin-right: 30px;
+            }
+
+            .visiMisi {
+                display: flex;
+                justify-content: inherit;
+                flex-direction: column;
+
+                .visi {
+                    margin: 0 0 20px 0;
+
+                    h3 {
+                        font-weight: 600;
+                    }
+                }
+
+
+                .misi {
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    .sambutan {
+
+        h1 {
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+    }
+
+
+    .perGaleri {
+
+        img {
+            width: 200px;
+            height: 100px;
+        }
+    }
+
+    .title {
+        h2 {
+            font-size: 1.7rem;
+        }
+    }
+
+    .jurusan {
+
+        .boxJurusan {
+            .perBox {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+}
+
+@media(max-width:995px) {
+    .artikel {
+
+        .perArtikel {
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+    }
+
+
+    .containerArtikelHome {
+
+        .artikelHome {
+
+            .perArtikelHome {
+                width: 300px;
+
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .containerEkstra {
+        height: 50vh;
+    }
+
+    .footerContactUs {
+
+        .perFooterContactUs {
+
+            p {
+                font-size: .7rem;
+            }
+        }
+    }
+
+}
+
+
+
+
+@media(max-width:770px) {
+
+    .jurusan {
+        h2 {
+            font-size: 2rem;
+        }
+
+        .boxJurusan {
+            .perBox {
+                width: 80%;
+                height: 250px;
+            }
+        }
+    }
+
+
+    // home artikel
+    .containerArtikelHome {
+
+        .artikelHome {
+
+            .perArtikelHome {
+                width: 100%;
+
+                img {
+                    height: 300px;
+                }
+            }
+        }
+
+    }
+
+    .artikel {
+
+        .perArtikel {
+            flex-direction: column;
+
+            img {
+                width: 100%;
+                height: 250px;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .textArtikel {
+                h3 {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+
+
+    // kepsek
+    .kepsek {
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+
+    .sambutan {
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .pembinaEkstrakulikuler {
+
+        .perPembina {
+            width: 80%;
+            height: 300px;
+        }
+    }
+
+
+
+
+}
+
+
+@media(max-width:767px) {
+    .footerContactUs {
+
+        .perFooterContactUs {
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .shareArtikel,
+    .penulis {
+        img {
+            width: 50%;
+        }
+    }
+
+}
+
+@media(max-width:650px) {
+    .slideshow {
+
+        .container {
+            left: 0;
+            bottom: 250px;
+        }
+    }
+
+    .imgArtikel {
+        height: 400px;
+    }
+
+    .detailArtikel {
+
+        h2 {
+            font-size: 1.7rem;
+        }
+    }
+
+}
+
+
+@media(max-width:475px) {
+    .perGaleri {
+
+        img {
+            width: 150px;
+            height: 100px;
+        }
+    }
+
+
+    .pembinaEkstrakulikuler {
+
+        .perPembina {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+
+    // home artikel
+    .containerArtikelHome {
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .artikelHome {
+
+            .perArtikelHome {
+                width: 100%;
+
+                img {
+                    height: 250px;
+                }
+            }
+        }
+
+    }
+
+
+    .title {
+
+        h1 {
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .shareArtikel,
+    .penulis {
+        img {
+            width: 80%;
+            height: 250px;
+        }
+    }
+
+    .imgArtikel {
+        height: 200px;
+    }
+
+
+
+    .navbar {
+
+        .navbar-brand {
+            img {
+                width: 33px;
+                height: 33px;
+            }
+
+            h1 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .containerEkstra {
+        margin-top: 60px;
+    }
+
+
+    .slideshow {
+
+        .container {
+
+            .mainText {
+
+                .garis {
+                    height: 70px;
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                    margin-left: 20px;
+                }
+
+                h1 {
+                    margin: 20px 0 30px 20px;
+                    font-size: 1.8rem;
+                }
+            }
+
+            h3 {
+                font-size: .9rem;
+            }
+        }
+    }
+
+
+    .artikel {
+
+        .perArtikel {
+
+            img {
+                height: 200px;
+            }
+
+            .textArtikel {
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+
+    .artikelPagination {
+
+        span {
+            padding: 5px 15px;
+            font-size: .9rem;
+            border: 1px solid #000;
+            margin: 0 5px;
+        }
+    }
+
+
+    .titleArtikel {
+        h1 {
+            text-align: center;
+        }
+    }
+
+
+    .artikel {
+
+        .perArtikel {
+
+            img {
+                height: 200px;
+            }
+
+            .textArtikel {
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+
+    .artikelPagination {
+
+        span {
+            padding: 3px 10px;
+            font-size: .7rem;
+        }
+    }
+
+    .jurusan h2 {
+        font-size: 1.5rem;
+    }
+
+    .jurusan .boxJurusan .perBox {
+        width: 100%;
+    }
+
+    .jurusan .boxJurusan .perBox h3 {
+        font-size: .8rem;
+    }
+
+
+    .iconBox {
+        top: 100%;
+        transform: translate(0, -100%);
+        width: 100%;
+        display: flex;
+
+        .perIconBox {
+            width: 300px;
+            border-bottom: 0px solid rgb(3, 6, 170);
+            border-right: 0px solid rgb(102, 102, 102);
+        }
+
+    }
+
+
+    .pembinaEkstrakulikuler {
+
+        .perPembina {
+            height: 200px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:375px) {
+    .sambutan {
+
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: .7rem;
+        }
+    }
+
+
+    // kepsek
+    .kepsek {
+
+        .container {
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .visiMisi {
+
+                .visi {
+
+                    h5 {
+                        font-size: .9rem;
+                    }
+
+                    h3 {
+                        font-size: 1rem;
+                    }
+                }
+
+
+                .misi {
+                    h5 {
+                        font-size: .9rem;
+                    }
+
+                    p {
+                        font-size: .9rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    .perGaleri {
+
+        img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+    .perFooterContactUs {
+
+        p {
+            font-size: .9em;
+        }
+    }
+
+}
